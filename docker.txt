@@ -28,3 +28,7 @@ docker network ls (to list all network)
 docker build 
     <-t (tag)> 
     <Name_of _ buildProject>
+
+docker-compose up (this will find docker-compose.yml from repo and run it)
+
+docker-compose -f <any other compose file to run> up
