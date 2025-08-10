@@ -2,6 +2,8 @@ docker run
   <-p XXXX:XXXX (for port mapping)> 
   <-d (to start it in detach mode)>
   <-v <volume_Name : file_where_data_is_stored>(to add volume)>
+  <--name <Name_of_container>(name given to specify it while conneting to network)>
+  <--network <Name_of_Network> (name of network you want to connect)>
   <Name of container>
 
 docker exec 
