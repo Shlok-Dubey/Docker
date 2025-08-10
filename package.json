@@ -1,0 +1,28 @@
+{
+  "name": "docker1",
+  "version": "1.0.0",
+  "description": "this is docker 1st file where i am learing to write dockerfile",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc -b && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Shlok-Dubey/Docker.git"
+  },
+  "author": "Shlok Dubey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shlok-Dubey/Docker/issues"
+  },
+  "homepage": "https://github.com/Shlok-Dubey/Docker#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "typescript": "^5.9.2"
+  }
+}
