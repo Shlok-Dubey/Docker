@@ -1,0 +1,28 @@
+docker run 
+  <-p XXXX:XXXX (for port mapping)> 
+  <-d (to start it in detach mode)>
+  <-v <volume_Name : file_where_data_is_stored>(to add volume)>
+  <Name of container>
+
+docker exec 
+    <-it (interective mode)>
+    <ID_of_container>
+    <sh(to_get_shell_access)>
+
+docker ps (to see all running images)
+
+docker kill <image ID> (to kill image)
+
+docker volume create <volume_name> (to create volume)
+
+docker volume ls (to list all volumes)
+
+docker images (to see all images in your device)
+
+docker network create <Name_of_network> (to create network)
+
+docker network ls (to list all network)
+
+docker build 
+    <-t (tag)> 
+    <Name_of _ buildProject>
